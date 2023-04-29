@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    height: 190vh;
+    width: auto;
+}
+
+.navbar-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    border-bottom: 3px solid rgb(75, 4, 4);
+  
+}
+
+
+.navbar-1 ul{
+    display: flex;
+    font-size: 17px;
+}
+
+.navbar-1 ul li{
+    padding: 0 15px;
+    margin-right: 5px;
+    list-style-type: none;
+}
+
+.logo img{
+    width: 170px;
+}
+
+.navbar-2{
+    display: flex;
+    margin: 9px 25px;
+   
+}
+
+.menu-2 ul{
+    display: flex;
+    margin: 2px auto;
+}
+
+
+.menu-2 ul li{
+    justify-content: space-between;
+    margin: 0 60px;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    padding-top: 10px;
+    cursor: pointer;
+
+}
+
+.menu-2 ul li:hover{
+ color: rgba(255, 255, 4, 0.707);
+}
+
+.icons{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+.hamburger-menu{
+    font-size: 28px;
+    margin-left: 29px;
+    cursor: pointer;
+}
+
+.rajsthan-section{
+    margin: 40px 24px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.rajsthan-section .box-1{
+    margin-top: 27px;
+}
+
+
+.footer-logo{
+  padding-top: 120px;
+
+}
+
+.footer-logo img{
+    justify-content: center;
+    align-items: center;
+    margin: 0 560px;
+}
+
+
+.contact-us{
+    display: flex;
+    margin: 40px 350px;
+}
+
+.contact-us li{
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+
+.font-section{
+    margin: 0 460px;
+    padding-top: 10px;
+}
+
+.font-section a{
+    margin: 0 30px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.font-section a:hover{
+    margin: 0 30px;
+    font-size: 30px;
+    cursor: pointer;
+    color: red;
+}
+
+.line{
+    position: absolute;
+    left: -515px;
+    width: 68%;
+    border-radius: 40px;
+    height: 3.7px;
+    background-color: black;
+    margin-top: 8px;
+}
+.line-2{
+    position: absolute;
+    right: 6px;
+    width: 28%;
+    border-radius: 40px;
+    height: 3.7px;
+    background-color: black;
+    margin-top: 8px;
+}
